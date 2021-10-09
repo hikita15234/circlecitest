@@ -16,7 +16,7 @@ jobs:
     #  - checkout
       - run:
           name: "Say hello"
-          command: "cat aaa.txt"
+          command: "echo $CIRCLE_JOB"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
